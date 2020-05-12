@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition:0.3s all;
+    font-family: Arial, Bahnschrift , sans-serif;
+}
+a:active{
+    color: aqua;
+    text-decoration: none !important;
+}
+a:visited{
+    color: bisque;
+    text-decoration: none !important;
+}
+.container{
+    width: 75%;
+    margin: 0px auto;
+}
+.title{
+    text-transform: uppercase;
+}
+.more{
+    line-height: 22px;
+    margin:15px 0px;
+    font-weight: 200;
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+}
+.btn{
+    padding: 13px 43px;
+    border-radius: 3px;
+    border: 2px solid red;
+    font-size: 14px;
+    text-transform: none;
+}
+.activeited{
+    color: red !important; 
+}
+input[type="submit"]{
+    font-family: Trebuchet MS;
+    letter-spacing: 0.5px;
+    background: red;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+section{
+    top: 0;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 25px;
+}
+#header{
+    height: 550px;
+    padding-top: 30px;
+    background: rgb(253, 237, 250);
+}
+nav{
+    background: rgb(31, 31, 31);
+    width: 100%;
+    height: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0px auto;
+}
+nav li{
+    display: block;
+    padding: 30px 20px;
+    background: rgb(31, 31, 31);
+}
+nav li:hover{
+    background: rgb(243, 108, 108);
+}
+nav a{
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+.main{
+    margin-top: 60px;
+    display: flex;
+}
+.main .left{
+    width: 50%;
+}
+.main .title{
+    font-size: 55px;
+    font-weight: 900;
+}
+.main .title .title_bottom{
+    letter-spacing: 4px;
+}
+.main .more{
+    margin:15px 0px;
+    font-weight: 200;
+    width: 70%;
+    color: rgb(121, 121, 121);
+}
+.left .btn {
+    position: relative;
+    top: 30px;
+    background: rgb(231, 43, 43);
+}
+.main .right{
+    width: 50%;
+    margin-left: 70px;
+}
+.main img, .main .img{
+    display: block;
+    position: relative;
+    top: 0;
+    float: right;
+    right: 0;
+}
+.main .img{
+    height: 300px;
+    width: 90%;
+    z-index: 0;
+    background: rgb(219, 209, 189);
+    box-shadow: -3px -3px 40px silver;
+}
+.main img{
+    top: -50%;
+    right: 34%;
+    width: 23%;
+    margin: 0px auto;
+}
+#learn_more .container{
+    display: flex;
+}
+#learn_more .text{
+    width: 40%;
+    height: 277px;
+}
+#learn_more .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(82, 81, 81);
+}
+#learn_more .more{
+    margin-top: 40px;
+}
+#learn_more .btn {
+    color: rgb(138, 123, 123);
+    position: relative;
+    top: 30px;
+}
+#learn_more .info{
+    margin-left: 80px;
+    width: 50%;
+    display: grid;
+    grid-gap: 0;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    grid-template-columns: repeat(auto-fit, 210px);
+}
+#learn_more .info .block{
+    width:auto;
+    height: auto;
+    color: rgb(116, 116, 116);
+    margin: 0px 10px 30px 0px;
+}
+#learn_more .info .icon {
+    width: 35px;
+    height: 35px;
+}
+.title_block{
+    margin:15px 0px;
+    font-size: 22px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+.more_block{
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+hr.first{
+    border: 1px solid rgb(224, 224, 224);
+    line-height: 1px;
+}
+#feature{
+    margin-top: 65px;
+}
+#feature .head{
+    text-align: center;
+    width: 450px;
+    margin: 0px auto;
+}
+#feature .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+}
+hr.second{
+    border: 1px solid red;
+    width: 100px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 2px red;
+}
+#feature .main{
+    margin: 50px auto;
+    height: auto;
+    display: grid;
+}
+#feature ul{
+    display: flex;
+    text-align: center;
+    margin: 0px auto;
+}
+#feature li{
+    display: block;
+    margin: 0px 20px;
+}
+#feature a{
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 260px);
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.grid .block{
+    background: rgba(255, 222, 198, 0.637);
+    height: 250px;
+}
+#meet .head{
+    width: 400px;
+}
+#meet .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(82, 81, 81);
+    left: -10px;
+    position: relative;
+}
+#meet .more{
+    color: rgb(131, 131, 131);
+}
+hr.three{
+    border: 1px solid red;
+    width: 100px;
+}
+.profiles{
+    margin-top: 50px;
+    display: flex;
+}
+.img_profile{
+    width: 260px;
+    height: 370px;
+    background: rgba(255, 222, 198, 0.637);
+}
+.content{
+    margin-left: 50px;
+}
+.name{
+    font-size: 23px;
+    color: rgb(97, 97, 97);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.profiles .more{
+    width: 530px !important;    
+    letter-spacing: 0.5px;
+}
+.social ul{
+    display: flex;
+    margin-top: 30px;
+}
+.social li{
+    display: block;
+    margin-right: 25px;
+}
+.social a{
+    font-style: italic;
+    font-family: Calibri;
+    color: rgb(114, 114, 114) !important;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.social hr{
+    margin:3px 0px;
+    border: 0px;
+}
+.social li a:hover ~ hr{
+    border: 1px solid rgb(149, 137, 250);
+    box-shadow: 0px 1px 3px rgb(149, 137, 250);
+}
+.peoples {
+    display: flex;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 22px;
+    overflow: hidden;
+}
+.human{
+    height: 150px;
+    width: 150px;
+    bottom: 0;
+    position: relative;
+    margin-right: 10px;
+}
+.human:hover .username{
+    bottom: 0px;
+}
+.human .img{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 222, 198, 0.637);
+}
+.human .username{
+    position: absolute;
+    bottom: -40px;
+    height: 20px;
+    width: 100%;
+    padding: 7px 0px 7px 0px;
+    text-align: center;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.486);
+    color: white;
+    text-transform: uppercase;
+}
+#search{
+    margin: 60px 0px;
+    padding: 110px 0px 110px 0px;
+    background: rgba(255, 222, 198, 0.637);
+    text-align: center;
+    color: white !important;
+}
+#search .title{
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 600;
+}
+#search .more{
+    margin: 25px 0px;
+    font-size: 13px;
+    color: white !important;
+}
+#search form{
+    margin-top: 50px;
+}
+#search input{
+    padding: 23px;
+    border: 0px;
+    border-radius: 4px;
+}
+#search input[type="email"]{
+    font-family: Roboto Th, Trebuchet MS;
+    width: 400px;
+    font-weight: 600;
+    color: rgb(131, 131, 131) !important;
+}
+#search input[type="submit"]{
+    margin-left: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+#get .title{
+    font-size: 33px;
+    color: rgb(94, 94, 94);
+    font-weight: 600;
+    font-family: Trebuchet MS;
+}
+#get hr{
+    width: 100px;
+    border:1px solid red;
+}
+#get .more{
+    width: 750px;
+    margin: 40px 0px;
+}
+#get .main {
+    margin: 50px 0px;
+}
+#get .main form{
+    width: 50%;
+}
+#get input,textarea{
+    background: rgb(230, 230, 230);
+    color: rgb(75, 75, 75);
+    border: 0px;
+    padding: 18.5px 40px 18.5px 40px;
+    border-radius: 10px;
+    width: 100%;
+}
+.name_mail{
+    display: flex;
+    margin-bottom: 36px;
+}
+.name_mail input{
+    width: 35% !important;
+}
+form .name_mail #email{
+    margin-left: 40px;
+}
+#get #message{
+    padding-bottom: 150px;
+}
+textarea{
+    box-sizing: border-box;
+    height: 200px;
+    margin-bottom: 36px;
+    font-size: 13px;
+}
+#get input[type="submit"]{
+    color: rgb(255, 255, 255);
+    background: rgb(228, 54, 54);
+    padding: 20px 30px;
+    font-family: Calibri, 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contact{
+    background: rgb(56, 56, 56);
+    color: rgb(192, 192, 192) !important;
+    padding: 100px 370px 100px 70px;
+    position: absolute;
+    right: 0;
+}
+.contact div:nth-child(n){
+    margin: 20px 0px;
+    font-size: 13px;
+}
+.contact .title{
+    font-family: Calibri !important;
+    font-size: 16px !important;
+    color: rgb(231, 231, 231) !important;
+}
+footer{
+    background: rgb(56, 56, 56);
+    color: rgb(192, 192, 192) ;
+    padding:35px 0px;
+    font-size: 14px;
+    bottom: 0;
+    position: relative;
+}
